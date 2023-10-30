@@ -1,0 +1,29 @@
+.title {
+    color: $text-color;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    &_fz14 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    &_fz20 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    &_fz25 {
+        font-size: 25px;
+    }
+    &_fz30 {
+        font-size: 30px;
+    }
+    &_fz36 {
+        font-size: 36px;
+    }
+    &_section-title {
+        color: red;
+    }
+    &_section-text {
+        color: red;
+    }
+}

@@ -1,0 +1,27 @@
+.promo {
+    min-height: 50vh;
+    position: relative;
+    background-color: #222930;
+    &__title {
+        text-align: center;
+        color: $text-color;
+        border: solid 2px;
+        border-color: $text-color;
+        width: 60%;
+        height: auto;
+        margin: 60px auto 0px auto;
+    }
+    &__pic {
+        min-width: 100%;
+        min-height: 500px;
+        display: flex;
+        background-attachment: fixed;
+        background-position: center 65px;   
+        padding: 50px 0px 0px 0px;
+        border-radius: 5%;
+        background-image: url(../img/Baur.jpg);
+        background-size: 60%;
+        background-repeat: no-repeat;
+        box-shadow: inset 0px 0px 40px 40px rgba(0,0,0,0.9);
+    }
+}

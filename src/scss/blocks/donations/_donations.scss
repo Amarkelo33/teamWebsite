@@ -1,0 +1,62 @@
+.donations {
+    &__block {
+        padding: 20px 0px 90px;
+    }
+    &__text {
+        font-weight: 700;
+    }
+    &__main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $text-color;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        padding: 0px 250px 0px 250px;
+    }
+    &__description {
+        text-align: left;
+        margin-top: 20px;
+        transform: translateX(5%);
+    }
+    &__thanks {
+        margin-top: 30px;
+        font-weight: 700;
+    }
+    &__payment {
+        &__block {
+            margin-top: 35px;
+        }
+        &__btn {
+            margin-top: 10px;
+            transition: 1s all ease-out;
+            input {
+                width: 185px;
+            }
+            &:hover {
+                transition: 1s all;
+                transform: scale(1.1);
+            }
+        }
+        &__type {
+            font-weight: 700;
+            text-decoration: underline;
+            &__paypal {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.payment {
+    &__img {
+        width: 220px;
+    }
+    &__btn {
+        border: none;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,80 @@
+//Imports
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Carattere&family=Poiret+One&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
+//Mixins and varaibles
+@import 'base/variables';
+@import 'base/mixins';
+@import 'blocks/footer';
+
+//Fonts
+* {
+    font-family: 'Poiret One', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+//Title
+@import 'blocks/title';
+
+//---INDEX---//
+
+//Menu
+@import 'blocks/index/menu';
+//Promo
+@import 'blocks/index/promo';
+//Sponsors
+@import 'blocks/index/sponsors';
+
+//------------//
+
+//---ABOUT_US---//
+
+@import 'blocks/about/about';
+
+//--------------//
+
+//---TRAINING---//
+
+@import 'blocks/training/training';
+
+//--------------//
+
+//---COMPETITION---//
+
+@import 'blocks/competition/competition';
+
+//--------------//
+
+//---VIDEOS---//
+
+@import 'blocks/video_folder/video';
+
+//---SOCIAL---//
+
+@import 'blocks/social/social';
+
+//------------//
+
+//---SPONSORS---//
+
+@import 'blocks/sponsors/sponsors_section';
+
+//--------------//
+
+//---DONATIONS---//
+
+@import 'blocks/donations/donations';
+
+//--------------//
+
+//---PRODUCTS---//
+
+@import 'blocks/products/products';
+
+//--------------//
+
+//---MEDIA---//
+
+@import 'media/media';
+
+//--------------//

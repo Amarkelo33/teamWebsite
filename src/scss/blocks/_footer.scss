@@ -1,0 +1,17 @@
+.footer {
+    position: relative;
+    bottom: 30px;
+    &__line {
+        width: 100%;
+        min-height: 1px;
+        background-color: $text-color;
+    }
+    &__block {
+        padding: 15px 0px 15px 0px;
+    }
+    &__text {
+        text-align: center;
+        color: $text-color;
+        
+    }
+}

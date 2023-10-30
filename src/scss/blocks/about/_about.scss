@@ -1,0 +1,72 @@
+.about {
+    &__block {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(min(2), 0fr);
+        padding: 20px 50px 0px 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    &__subtitle {
+        margin-top: 10px;
+    }
+    &__leah {
+        padding: 0px 170px 0px 170px;
+        &__title {
+            margin-top: 40px;
+        }
+        &__description {
+            color: $text-color;
+            font-size: 25px;
+            line-height: 35px;
+            text-align: left;
+            margin-top: 10px;
+        }
+        &__pic {
+            margin-top: 15px;
+            &__img {
+                width: 450px;
+                height: auto;
+            }
+        }
+    }
+    &__artem {
+        padding: 0px 170px 0px 170px;
+        &__title {
+            margin-top: 40px;
+        }
+        &__description {
+            color: $text-color;
+            font-size: 25px;
+            line-height: 35px;
+            text-align: left;
+            margin-top: 10px;
+        }
+        &__pic {
+            margin-top: 15px;
+            &__img {
+                width: 450px;
+                height: auto;
+            }
+            margin-bottom: 30px;
+        }
+    }
+    &__table {
+        color: $text-color;
+        background-color: $text-color;
+        width: 70%;
+        font-size: 25px;
+        margin: 5px auto 0px auto;
+        &__column {
+            padding: 15px;
+        }
+        &__row {
+            font-weight: 300;
+            padding: 15px;
+            &__firstcolumn {
+                font-weight: 700;
+            }
+        }
+    }
+}

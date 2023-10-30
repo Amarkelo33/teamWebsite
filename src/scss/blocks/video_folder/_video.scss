@@ -1,0 +1,20 @@
+.videos {
+    &__block {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(min(2), 0fr);
+        padding: 20px 50px 0px 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        &__last {
+            padding-bottom: 45px;
+        }
+    }
+    &__title {
+        padding: 30px 0px 15px 0px;
+        &__first {
+            padding-top: 10px;
+        }
+    }
+}

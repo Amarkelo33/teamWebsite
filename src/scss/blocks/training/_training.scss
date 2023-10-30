@@ -1,0 +1,32 @@
+.training {
+    &__block {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(min(2), 0fr);
+        padding: 20px 50px 70px 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    &__subtitle {
+        margin-top: 10px;
+        &__office {
+            margin-top: 30px;
+        }
+    }
+    &__table {
+        color: $text-color;
+        background-color: $text-color;
+        width: 70%;
+        font-size: 25px;
+        margin: 5px auto 0px auto;
+        &__row {
+            font-weight: 300;
+            padding: 15px;
+            &__firstcolumn {
+                font-weight: 700;
+                width: 35%;
+            }
+        }
+    }
+}

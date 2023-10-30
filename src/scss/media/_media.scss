@@ -1,0 +1,768 @@
+@media (max-width: 1200px) {
+
+.promo {
+    &__title {
+        width: 68%;
+    }
+}
+
+.hamburger {
+    left: 65px;
+}
+
+.menu {
+    width: 50%;
+    &__list {
+        padding-top: 40px;
+    }
+}
+
+.section {
+    &__sponsors {
+        &__main {
+            padding: 70px 150px 60px 150px;
+        }
+    }
+}
+
+.sponsors{
+    &__pic{
+        &:hover {
+            transform: none;
+        }
+        &__mk{
+            width: 200px;
+        }
+        &__skateus {
+            width: 220px;
+        }
+    }
+}
+
+.promo {
+    &__pic {
+        background-position: center 70px;
+        background-size: 85%;
+    }
+}
+
+.about {
+    &__table {
+        width: 85%;
+    }
+    &__leah {
+        padding: 0px 120px 0px 120px;
+    }
+    &__artem {
+        padding: 0px 120px 0px 120px;
+    }
+}
+
+.training {
+    &__table {
+        width: 85%;
+    }
+}
+
+.competition {
+    &__table {
+        width: 85%;
+    }
+}
+
+.crt {
+    &-stack {
+        &-feed {
+            &-container {
+                width: 85%;
+            }
+        }
+    }
+}
+
+.profile {
+    &-card {
+        width: 250px;
+    }
+}
+
+.donations {
+    &__main {
+        padding: 0px 150px 0px 150px;
+    }
+    &__block {
+        padding: 20px 0px 15px 0px;
+    }
+}
+
+.products {
+    &__wrapper {
+        padding: 70px 0px 90px 0px;
+    }
+}
+
+}
+
+@media (max-width: 992px) {
+
+.menu {
+    width: 60%;
+}
+
+
+.hamburger {
+    left: 50px;
+}
+
+.promo {
+    &__pic {
+        background-position: center 90px;
+        background-size: 85%;
+        min-height: 400px;
+    }
+}
+
+h1 {
+    transform: none;
+    transition: none;
+}
+
+.title {
+    &_fz36 {
+        font-size: 33px;
+    }
+    &_fz30 {
+        font-size: 28px;
+    }
+    &_fz25 {
+        font-size: 20px;
+    }
+}
+
+.sponsors{
+    &__pic{
+        &__mk{
+            width: 200px;
+        }
+        &__skateus {
+            width: 220px;
+        }
+    }
+    &__icons {
+        height: 55vh;
+    }
+    &__section {
+        &__block {
+            padding: 40px 150px 50px 150px;
+        }
+    }
+}
+
+.block {
+    &__title {
+        margin-top: 30px;
+    }
+}
+
+.section {
+    &__sponsors {
+        &__main {
+            padding: 50px 150px 40px 150px;
+        }
+    }
+}
+
+.about {
+    &__table {
+        width: 85%;
+    }
+    &__leah {
+        padding: 0px 90px 0px 90px;
+    }
+    &__artem {
+        padding: 0px 90px 0px 90px;
+    }
+    &__block {
+        padding: 0px 30px 10px 30px
+    }
+}
+
+.sponsors {
+    &__icons {
+        gap: 150px;
+    }
+}
+
+.training {
+    &__block {
+        padding: 0px 30px 70px 30px
+    }
+}
+
+.competition {
+    &__block {
+        padding: 0px 30px 30px 30px;
+        &__last {
+            padding: 0px 30px 50px 30px;
+        }
+    }
+}
+
+.videos {
+    &__block {
+        padding: 0px 30px 30px 30px;
+        &__last {
+            padding: 0px 30px 50px 30px;
+        }
+    }
+}
+
+.donations {
+    &__block {
+        padding: 0px 0px 10px 0px;
+    }
+    &__main {
+        padding: 0px 120px 0px 120px;
+    }
+}
+
+.info {
+    &__text {
+        padding: 10px 90px 10px 90px;
+    }
+}
+
+.profile {
+    &__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &-card {
+        width: 350px;
+        margin-top: 40px;
+        padding: 40px;
+        &:nth-child(1) {
+            margin-top: 0px;
+        }
+        &:hover {
+            transform: none;
+            transition: none;
+        }
+        &__social {
+            &-link {
+                &:hover {
+                    transform: none;
+                    transition: none;
+                }
+            }
+        }
+        &__name {
+            font-size: 35px;
+        }
+    }
+}
+
+.products {
+    &__img {
+        &:hover {
+            transform: none;
+            transition: none;
+        }
+    }
+    &__wrapper {
+        padding: 50px 0px 80px 0px;
+    }
+}
+
+}
+
+@media (max-width: 768px) {
+
+.hamburger {
+    left: 34px;
+}
+
+.title {
+    &_fz25 {
+        font-size: 18px;
+    }
+}
+
+.promo {
+    &__title {
+        width: 95%;
+    }
+    &__pic {
+        background-size: 90%;
+    }
+}
+
+.sponsors {
+    &__icons {
+        gap: 100px;
+    }
+}
+
+.menu {
+    width: 100%;
+    &__block {
+        width: 95%;
+    }
+}
+
+.about {
+    &__leah {
+        padding: 0px 65px 0px 65px;
+        &__pic {
+            &__img {
+                width: 350px;
+            }
+        }
+    }
+    &__artem {
+        padding: 0px 65px 0px 65px;
+        &__pic {
+            &__img {
+                width: 350px;
+            }
+        }
+    }
+}
+
+.competition {
+    &__table {
+        &__row {
+            padding: 8px;
+        }
+    }
+}
+
+.info {
+    &__text {
+        padding: 10px 65px 10px 65px;
+    }
+}
+
+.crt {
+    &-stack {
+        &-content {
+            display: none;
+        }
+    }
+    &-feed {
+        width: 520px;
+        display: block;
+        margin: 0 auto; 
+    }
+}
+
+.title {
+    &__line {
+        &__divider {
+            margin-top: 15px;
+        }
+    }
+}
+
+.profile {
+    &__cards {
+        padding: 30px 0px 50px 0px;
+    }
+    &-card {
+        width: 300px;
+        height: auto;
+        &__img {
+            &-body {
+                width: 200px;
+                height: auto;
+            }
+        }
+        &__name {
+            font-size: 33px;
+        }
+    }
+}
+
+.donations {
+    &__main {
+        padding: 0px 80px 0px 80px;
+    }
+}
+
+.products {
+    &__wrapper {
+        flex-direction: column;
+        padding: 30px 0px 60px 0px;
+    }
+    &__text {
+        margin-left: 0px;
+        row-gap: 5px;
+    }
+    &__descr {
+        text-align: center;
+    }
+    &__name {
+        margin-bottom: 15px;
+    }
+    &__btn {
+        margin-top: 0px;
+    }
+}
+
+}
+
+@media (max-width: 576px) {
+
+.promo {
+    &__title {
+        display: none;
+    }
+}
+
+.hamburger {
+    top: 55px;
+    left: 55px;
+}
+
+.title {
+    &_fz36 {
+        font-size: 30px;
+    }
+    &_fz20 {
+        font-size: 18px;
+    }
+}
+
+.section {
+    &__sponsors {
+        &__main {
+            padding: 40px 20px 40px 20px;
+        }
+    }
+}
+
+.sponsors {
+    &__icons {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        height: 60vh;
+        margin-top: 30px;
+    }
+    &__section {
+        &__block {
+            padding: 5px 0px 40px 0px;
+        }
+    }
+}
+
+.title {
+    &__line {
+        margin-top: 120px;
+        &__divider {
+            margin-top: 20px;
+        }
+    }
+}
+
+.about {
+    &__table {
+        font-size: 23px;
+    }
+    &__leah {
+        padding: 0px 45px 0px 45px;
+        &__title {
+            margin-top: 23px;
+        }
+        &__description {
+            margin-top: 0px;
+        }
+        &__pic {
+            &__img {
+                width: 325px;
+            }
+        }
+    }
+    &__artem {
+        padding: 0px 45px 0px 45px;
+        &__pic {
+            &__img {
+                width: 325px;
+            }
+        }
+    }
+}
+
+.training {
+    &__table {
+        width: 90%;
+    }
+}
+
+.competition {
+    &__table {
+        font-size: 20px;
+        &__row {
+            padding: 4px;
+        }
+        &__column {
+            padding: 4px;
+        }
+    }
+}
+
+.info {
+    &__text {
+        font-size: 25px;
+        padding: 10px 45px 10px 45px;
+    }
+}
+
+iframe {
+    width: 400px;
+}
+
+.videos {
+    &__title {
+        font-size: 25px;
+        padding: 10px;
+        line-height: 40px;
+    }
+}
+
+.crt {
+    &-feed {
+        width: 490px;
+    }
+}
+
+.profile {
+    &-card {
+        width: 280px;
+    }
+}
+
+.products {
+    &__text {
+        width: 75%;
+        margin-top: 15px;
+    }
+    &__img {
+        width: 200px;
+    }
+    &__btn {
+        margin-top: 0px;
+    }
+}
+
+.about {
+    &__table {
+        font-size: 20px;
+        &__row {
+            padding: 7px;
+        }
+        &__column {
+            padding: 7px;
+        }
+    }
+}
+
+}
+
+@media (max-width: 480px) {
+
+.promo {
+    &__pic {
+        background-size: 105%;
+    }
+}
+
+.sponsors {
+    &__icons {
+        height: 55vh;
+    }
+    &__pic {
+        &__mk {
+            width: 180px;
+        }
+        &__skateus {
+            width: 210px;
+        }
+    }
+}
+
+.title {
+    &_fz20 {
+        font-size: 15px;
+    }
+    &_fz30 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    &_fz36 {
+        font-size: 28px;
+    }
+}
+
+.about {
+    &__table {
+        width: 75%;
+        font-size: 20px;
+        &__row {
+            padding: 5px;
+        }
+        &__column {
+            padding: 5px;
+        }
+    }
+    &__leah {
+        &__description {
+            font-size: 20px;
+        }
+        &__pic {
+            &__img {
+                width: 250px;
+            }
+        }
+    }
+    &__artem {
+        &__description {
+            font-size: 20px;
+        }
+        &__pic {
+            &__img {
+                width: 250px;
+            }
+        }
+    }
+}
+
+.training {
+    &__table {
+        font-size: 16px;
+        width: 75%;
+        &__row {
+            padding: 7px;
+            &__firstcolumn {
+                padding: 10px;
+            }
+        }
+    }
+}
+
+.info {
+    &__text {
+        font-size: 22px;
+    }
+}
+
+.competition {
+    &__table {
+        font-size: 15px;
+    }
+}
+
+iframe {
+    width: 95%;
+}
+
+.crt {
+    &-feed {
+        width: 100%;
+    }
+}
+
+.profile {
+    &-card {
+        width: 250px;
+        padding: 25px;
+        &__name {
+            font-size: 22px;
+        }
+        &__social {
+            &-img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+}
+
+.sponsors {
+    &__section {
+        &__block {
+            padding: 50px 0px 50px 0px;
+        }
+    }
+}
+
+.donations {
+    &__main {
+        padding: 0px 30px 0px 30px;
+        font-size: 23px;
+    }
+}
+
+.donations {
+    &__payment {
+        &__btn {
+            input {
+                width: 150px;
+            }
+        }
+    }
+}
+
+.payment {
+    &__img {
+        width: 180px;
+    }
+}
+
+.products {
+    &__name {
+        font-size: 26px;
+    }
+    &__text {
+        font-size: 24px;
+    }
+    &__wrapper {
+        padding-bottom: 120px;
+    }
+    &__btn {
+        margin-top: 0px;
+    }
+    &__price {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+}
+
+.shopify {
+    &-buy {
+        &__btn {
+            font-size: 16px;
+        }
+    }
+}
+
+.about {
+    &__block {
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    &__table {
+        width: 90%;
+    }
+}
+
+.menu {
+    &__list {
+        padding-top: 18px;
+    }
+}
+
+
+}
+

@@ -1,0 +1,45 @@
+.sponsors {
+    &__title {
+        text-align: center;
+        font-weight: 700;
+        color: $text-color;
+    }
+    &__icons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        height: 50vh;
+    }
+    &__pic {
+        display: grid;
+        justify-content: center;
+        background-repeat: no-repeat;
+        transition: all 1s ease-in-out;
+        height: auto;
+        max-width: 100%;
+        cursor: pointer;
+        &:hover {
+            transition: all 1s;
+            transform: scale(1.1);
+        }
+        &__mk {
+            width: 250px;
+            height: auto;
+            border-radius: 50%;
+        }
+        &__skateus {
+            width: 250px;
+            height: auto;
+        }
+    }
+}
+
+.section {
+    &__sponsors {
+        &__main {
+            padding: 100px 300px 60px 300px;
+        }
+    }
+}

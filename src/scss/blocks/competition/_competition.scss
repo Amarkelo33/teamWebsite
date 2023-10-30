@@ -1,0 +1,53 @@
+.competition {
+    &__block {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(min(2), 0fr);
+        padding: 20px 50px 0px 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        &__last {
+            padding-bottom: 45px;
+        }
+    }
+    &__table {
+        color: $text-color;
+        background-color: $text-color;
+        width: 70%;
+        font-size: 25px;
+        margin: 15px auto 0px auto;
+        &__row {
+            font-weight: 300;
+            padding: 15px;
+            &__firstcolumn {
+                font-weight: 700;
+                width: 10%;
+            }
+        }
+    }
+}
+.info {
+    &__text {
+        color: $text-color;
+        font-size: 28px;
+        padding: 10px 120px 0px 120px;
+        &__category {
+            font-weight: bold;
+        }
+    }
+    &__results {
+        padding-top: 20px;
+    }
+    &__pic {
+        padding-top: 20px;
+    }
+    &__title {
+        &__second {
+            margin-top: 20px;
+        }
+    }
+}
+
+
+    
